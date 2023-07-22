@@ -57,7 +57,7 @@ const Feedback = () => {
           </p>
         </div>
 
-        <Slider {...settings}>
+        <Slider {...settings} className="px-5">
           <FeedbackCard />
           <FeedbackCard />
           <FeedbackCard />

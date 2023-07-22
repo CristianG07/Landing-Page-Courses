@@ -16,13 +16,13 @@ const Footer = () => {
             feugiat auctor felis.
           </h3>
           <h3 className="py-2 text-[#363A3D]">Email: example@mail.com</h3>
-          <div className="flex gap-4 py-4">
+          <div className="grid grid-cols-3 sm:grid-cols-5 w-fit gap-4 py-4">
             {socialsFooter.map((item, i) => {
               return (
                 <a
                   href="#"
                   target="_blank"
-                  className="p-4 bg-[#E9F8F3] rounded-xl text-primary hover:bg-primary hover:text-[#E9F8F3] text-3xl"
+                  className="p-4 bg-[#E9F8F3] rounded-xl text-primary hover:bg-primary hover:text-[#E9F8F3] text-2xl md:text-3xl"
                   key={i}
                 >
                   {item.icon}
